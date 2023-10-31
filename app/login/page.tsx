@@ -16,6 +16,17 @@ export default function LoginPage() {
           </div>
         </div>
         <LoginForm />
+        <div className='flex flex-col px-6'>
+          <span className='text-slate-400 text-base'>
+            Entrar como usuario visitante
+          </span>
+          <span className='text-slate-400 text-sm'>
+            E-mail: <span className='text-slate-600'>user@nextmail.com</span>
+          </span>
+          <span className='text-slate-400 text-sm'>
+            Senha: <span className='text-slate-600'>123456</span>
+          </span>
+        </div>
       </div>
     </main>
   );
