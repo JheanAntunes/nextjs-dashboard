@@ -22,8 +22,6 @@ export default async function Cards() {
     totalPendingInvoices,
   } = await fetchCardData();
 
-  console.log("Card: ", numberOfInvoices);
-
   return (
     <>
       {/* NOTE: comment in this code when you get to this point in the course */}
